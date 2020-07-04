@@ -23,6 +23,7 @@ print(login_button.get_attribute("value"))
 print(login_button.value_of_css_property("color"))
 
 # driver.find_element_by_xpath("//input[@name= 'fuel_type'][@value='Diesel']")
+print("test")
 print(driver.title)
 driver.get("http://www.google.com")
 driver.back()
